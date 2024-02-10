@@ -4,19 +4,19 @@ import { SubmitKey } from "../store/config";
 const isApp = !!getClientConfig()?.isApp;
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "诶...？这个功能好像还没做出来啊...",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      ? "API Key 好像没输对鸭，也有可能是因为需要配置一下代理...请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
+      : "~~Wrong Answer~~ 访问密码错误，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 API Key。",
   },
   Auth: {
-    Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码",
+    Title: "清弦's ChatGPT Web",
+    Tips: "请输入密码，开启你的ChatGPT之旅🎉",
     SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
-    Input: "在此处填写访问码",
-    Confirm: "确认",
-    Later: "稍后再说",
+    Input: "密码会是什么呢...",
+    Confirm: "登录",
+    Later: "我先进去看看...",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -359,7 +359,15 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: `
+    欢迎来到清弦's ChatGPT🎉
+
+    你可以选择下方我们预设的“角色”开始对话，也可以自行编写Prompt向ChatGPT提问！
+    
+    如果你想自行编写Prompt，给你几点建议——
+    1. 为 GPT 设定身份和技能；
+    2. 让 GPT 一边回答一边推理（解释自己为什么这么回答）；
+    `,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

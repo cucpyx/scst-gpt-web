@@ -11,12 +11,12 @@ const cn = {
       : "~~Wrong Answer~~ 访问密码错误，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 API Key。",
   },
   Auth: {
-    Title: "清弦's ChatGPT Web",
-    Tips: "请输入密码，开启你的ChatGPT之旅🎉",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
-    Input: "密码会是什么呢...",
+    Title: "SCST AI bot.",
+    Tips: "中国科学院大学计算机科学与技术学院",
+    SubTips: "或者配置你的 OpenAI 或 Google API 密钥",
+    Input: "联系admin获取密码...",
     Confirm: "登录",
-    Later: "我先进去看看...",
+    Later: "先进去看看...",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -359,15 +359,14 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: `
-    欢迎来到清弦's ChatGPT🎉
-
-    你可以选择下方我们预设的“角色”开始对话，也可以自行编写Prompt向ChatGPT提问！
-    
-    如果你想自行编写Prompt，给你几点建议——
-    1. 为 GPT 设定身份和技能；
-    2. 让 GPT 一边回答一边推理（解释自己为什么这么回答）；
-    `,
+    BotHello: `### 欢迎来到 SCST AI bot. [施工中的开场词]
+您可以通过 **两种方法** 来调用我们内置的 Prompt：
+1. 点击左边栏或对话框上方的 “面具”
+2. 直接在输入框中敲击 '/'
+        
+当然，您也可以选择自行编写 Prompt，以下是几点建议——
+1. 为 GPT 设定身份和技能；
+2. 让 GPT 一边回答一边推理（解释自己为什么这么回答）；`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

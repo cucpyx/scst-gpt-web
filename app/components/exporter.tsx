@@ -538,9 +538,9 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>清弦. ChatGPT Web</div>
+            <div className={styles["main-title"]}>SCST AI bot.</div>
             <div className={styles["sub-title"]}>
-              [pyxchat.top] 用 AI 发电的私人聊天机器人.
+              国科大计算机学院AI助手出品.
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />

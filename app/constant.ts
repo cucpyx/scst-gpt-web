@@ -386,15 +386,15 @@ export const DEFAULT_MODELS = [
   },
 
   // OPENAI DALL-E
-  {
-    name: "dall-e",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
+  // {
+  //   name: "dall-e",
+  //   available: true,
+  //   provider: {
+  //     id: "openai",
+  //     providerName: "OpenAI",
+  //     providerType: "openai",
+  //   },
+  // },
   {
     name: "dall-e-3",
     available: true,
@@ -442,15 +442,15 @@ export const DEFAULT_MODELS = [
       providerType: "anthropic",
     },
   },
-  {
-    name: "claude-instant-1",
-    available: true,
-    provider: {
-      id: "anthropic",
-      providerName: "Anthropic",
-      providerType: "anthropic",
-    },
-  },
+  // {
+  //   name: "claude-instant-1",
+  //   available: true,
+  //   provider: {
+  //     id: "anthropic",
+  //     providerName: "Anthropic",
+  //     providerType: "anthropic",
+  //   },
+  // },
 
   // // Google gemini 系列
   // {
@@ -472,45 +472,45 @@ export const DEFAULT_MODELS = [
   //   },
   // },
 
-  // Meta Llama
-  {
-    name: "llama-3-70b",
-    available: true,
-    provider: {
-      id: "meta",
-      providerName: "Meta",
-      providerType: "meta",
-    },
-  },
+  // // Meta Llama
+  // {
+  //   name: "llama-3-70b",
+  //   available: true,
+  //   provider: {
+  //     id: "meta",
+  //     providerName: "Meta",
+  //     providerType: "meta",
+  //   },
+  // },
 
   // 科大讯飞 星火系列
-  {
-    name: "SparkDesk",
-    available: true,
-    provider: {
-      id: "spark",
-      providerName: "Spark",
-      providerType: "spark",
-    },
-  },
-  {
-    name: "SparkDesk-v1.1",
-    available: true,
-    provider: {
-      id: "spark",
-      providerName: "Spark",
-      providerType: "spark",
-    },
-  },
-  {
-    name: "SparkDesk-v2.1",
-    available: true,
-    provider: {
-      id: "spark",
-      providerName: "Spark",
-      providerType: "spark",
-    },
-  },
+  // {
+  //   name: "SparkDesk",
+  //   available: true,
+  //   provider: {
+  //     id: "spark",
+  //     providerName: "Spark",
+  //     providerType: "spark",
+  //   },
+  // },
+  // {
+  //   name: "SparkDesk-v1.1",
+  //   available: true,
+  //   provider: {
+  //     id: "spark",
+  //     providerName: "Spark",
+  //     providerType: "spark",
+  //   },
+  // },
+  // {
+  //   name: "SparkDesk-v2.1",
+  //   available: true,
+  //   provider: {
+  //     id: "spark",
+  //     providerName: "Spark",
+  //     providerType: "spark",
+  //   },
+  // },
   {
     name: "SparkDesk-v3.1",
     available: true,
@@ -520,15 +520,15 @@ export const DEFAULT_MODELS = [
       providerType: "spark",
     },
   },
-  {
-    name: "SparkDesk-v3.5",
-    available: true,
-    provider: {
-      id: "spark",
-      providerName: "Spark",
-      providerType: "spark",
-    },
-  },
+  // {
+  //   name: "SparkDesk-v3.5",
+  //   available: true,
+  //   provider: {
+  //     id: "spark",
+  //     providerName: "Spark",
+  //     providerType: "spark",
+  //   },
+  // },
 
 ] as const;
 

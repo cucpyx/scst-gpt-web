@@ -116,96 +116,8 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 };
 
 export const DEFAULT_MODELS = [
-  {
-    name: "gpt-4",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-0314",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-0613",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-32k",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-32k-0314",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-32k-0613",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-turbo-preview",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-1106-preview",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-0125-preview",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-4-vision-preview",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
+
+  // OPENAI GPT 系列
   {
     name: "gpt-3.5-turbo",
     available: true,
@@ -270,6 +182,278 @@ export const DEFAULT_MODELS = [
     },
   },
   {
+    name: "gpt-3.5-turbo-instruct",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-0125-preview",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-0314",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-0613",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-1106-preview",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-1106-vision-preview",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-32k",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-32k-0314",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-32k-0613",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-all",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-dalle",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-gizmo",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-gizmo-*",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-gizmo-g-*",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-turbo",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-turbo-2024-04-09",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-turbo-preview",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "gpt-4-vision-preview",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },{
+    name: "gpt-4o",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },{
+    name: "gpt-4o-2024-05-13",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },{
+    name: "gpt-4o-all",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },{
+    name: "gpt-4o-mini",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+
+  // OPENAI DALL-E
+  {
+    name: "dall-e",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
+    name: "dall-e-3",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+
+  // Anthropic claude 系列
+  {
+    name: "claude-3-5-sonnet-20240620",
+    available: true,
+    provider: {
+      id: "anthropic",
+      providerName: "Anthropic",
+      providerType: "anthropic",
+    },
+  },
+  {
+    name: "claude-3-haiku-20240307",
+    available: true,
+    provider: {
+      id: "anthropic",
+      providerName: "Anthropic",
+      providerType: "anthropic",
+    },
+  },
+  {
+    name: "claude-3-opus-20240229",
+    available: true,
+    provider: {
+      id: "anthropic",
+      providerName: "Anthropic",
+      providerType: "anthropic",
+    },
+  },
+  {
+    name: "claude-3-sonnet-20240229",
+    available: true,
+    provider: {
+      id: "anthropic",
+      providerName: "Anthropic",
+      providerType: "anthropic",
+    },
+  },
+  {
+    name: "claude-instant-1",
+    available: true,
+    provider: {
+      id: "anthropic",
+      providerName: "Anthropic",
+      providerType: "anthropic",
+    },
+  },
+
+  // Google gemini 系列
+  {
     name: "gemini-pro",
     available: true,
     provider: {
@@ -278,6 +462,74 @@ export const DEFAULT_MODELS = [
       providerType: "google",
     },
   },
+  {
+    name: "gemini-pro-vision",
+    available: true,
+    provider: {
+      id: "google",
+      providerName: "Google",
+      providerType: "google",
+    },
+  },
+
+  // Meta Llama
+  {
+    name: "llama-3-70b",
+    available: true,
+    provider: {
+      id: "meta",
+      providerName: "Meta",
+      providerType: "meta",
+    },
+  },
+
+  // 科大讯飞 星火系列
+  {
+    name: "SparkDesk",
+    available: true,
+    provider: {
+      id: "spark",
+      providerName: "Spark",
+      providerType: "spark",
+    },
+  },
+  {
+    name: "SparkDesk-v1.1",
+    available: true,
+    provider: {
+      id: "spark",
+      providerName: "Spark",
+      providerType: "spark",
+    },
+  },
+  {
+    name: "SparkDesk-v2.1",
+    available: true,
+    provider: {
+      id: "spark",
+      providerName: "Spark",
+      providerType: "spark",
+    },
+  },
+  {
+    name: "SparkDesk-v3.1",
+    available: true,
+    provider: {
+      id: "spark",
+      providerName: "Spark",
+      providerType: "spark",
+    },
+  },
+  {
+    name: "SparkDesk-v3.5",
+    available: true,
+    provider: {
+      id: "spark",
+      providerName: "Spark",
+      providerType: "spark",
+    },
+  },
+
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;

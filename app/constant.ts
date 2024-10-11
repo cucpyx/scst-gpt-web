@@ -383,6 +383,38 @@ export const DEFAULT_MODELS = [
       providerName: "OpenAI",
       providerType: "openai",
     },
+  },{
+    name: "o1-mini",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },{
+    name: "o1-mini-all",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },{
+    name: "o1-preview",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },{
+    name: "o1-preview-all",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
   },
 
   // OPENAI DALL-E
